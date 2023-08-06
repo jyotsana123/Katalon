@@ -1,21 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-06T22:11:43 IST" name="Default suite" finished-at="2023-08-06T22:11:54 IST" duration-ms="11402">
+  <suite started-at="2023-08-06T22:31:37 IST" name="Suite" finished-at="2023-08-06T22:31:54 IST" duration-ms="17444">
     <groups>
     </groups>
-    <test started-at="2023-08-06T22:11:43 IST" name="Default test" finished-at="2023-08-06T22:11:54 IST" duration-ms="11402">
+    <test started-at="2023-08-06T22:31:37 IST" name="Test" finished-at="2023-08-06T22:31:54 IST" duration-ms="17444">
+      <class name="Herokuapp.Tests.LoginLogout">
+        <test-method signature="login()[pri:0, instance:Herokuapp.Tests.LoginLogout@7a220c9a]" started-at="2023-08-06T22:31:37 IST" name="login" finished-at="2023-08-06T22:31:45 IST" duration-ms="8068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="logout()[pri:0, instance:Herokuapp.Tests.LoginLogout@7a220c9a]" started-at="2023-08-06T22:31:45 IST" name="logout" finished-at="2023-08-06T22:31:46 IST" depends-on-methods="Herokuapp.Tests.LoginLogout.login" duration-ms="957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- Herokuapp.Tests.LoginLogout -->
       <class name="Herokuapp.Tests.BookAppointment">
-        <test-method signature="bookAppointment()[pri:0, instance:Herokuapp.Tests.BookAppointment@5be46f9d]" started-at="2023-08-06T22:11:43 IST" name="bookAppointment" finished-at="2023-08-06T22:11:54 IST" duration-ms="10483" status="PASS">
+        <test-method signature="bookAppointment()[pri:0, instance:Herokuapp.Tests.BookAppointment@7a67e3c6]" started-at="2023-08-06T22:31:46 IST" name="bookAppointment" finished-at="2023-08-06T22:31:54 IST" duration-ms="7520" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bookAppointment -->
-        <test-method signature="goToHomePage()[pri:0, instance:Herokuapp.Tests.BookAppointment@5be46f9d]" started-at="2023-08-06T22:11:54 IST" name="goToHomePage" finished-at="2023-08-06T22:11:54 IST" depends-on-methods="bookAppointment()" duration-ms="598" status="PASS">
+        <test-method signature="goToHomePage()[pri:0, instance:Herokuapp.Tests.BookAppointment@7a67e3c6]" started-at="2023-08-06T22:31:54 IST" name="goToHomePage" finished-at="2023-08-06T22:31:54 IST" depends-on-methods="bookAppointment()" duration-ms="598" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goToHomePage -->
       </class> <!-- Herokuapp.Tests.BookAppointment -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

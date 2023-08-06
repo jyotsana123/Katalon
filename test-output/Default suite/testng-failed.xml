@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Herokuapp.Tests.BookAppointment">
+      <class name="Herokuapp.Tests.LoginLogout">
         <methods>
-          <include name="bookAppointment"/>
-          <include name="goToHomePage"/>
+          <include name="logout"/>
+          <include name="login"/>
         </methods>
-      </class> <!-- Herokuapp.Tests.BookAppointment -->
+      </class> <!-- Herokuapp.Tests.LoginLogout -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -19,7 +19,7 @@ public class LoginLogout extends Basetest {
 	public void login() {
 		Login login = launchApplication();
 		login.clickOnMakeAptButton();
-		Assert.assertEquals(driver.getCurrentUrl(), "https://katalon-demo-cura.herokuapp.com/profile.php#login.");
+		Assert.assertEquals(driver.getCurrentUrl(), "https://katalon-demo-cura.herokuapp.com/profile.php#login");
 		login.enterUsernamePassword("John Doe", "ThisIsNotAPassword");
 		login.clickOnSubmit();
 	}
